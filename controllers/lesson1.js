@@ -1,12 +1,14 @@
-const test04 = ('/', (req, res) => {
-    res.send("Test 4");
+// Lesson 01
+
+const juliana = ('/', (req, res) => {
+    res.send("Juliana Lemos");
 });
 
-const test05 = ('/test05', (req, res) => {
-    res.send("Test 5 worked!");
+const daniel = ('/daniel', (req, res) => {
+    res.send("Daniel Lemos");
 });
 
 module.exports = {
-    test04,
-    test05,
+    juliana,
+    daniel,
 };
