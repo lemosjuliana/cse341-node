@@ -1,3 +1,4 @@
+// Lesson 02
 // It uses the dotenv package to load 
 // environment variables from a .env file:
 const dotenv = require('dotenv');
