@@ -1,0 +1,24 @@
+[
+    {
+      "firstName": "Luiz",
+      "lastName": "Reale",
+      "email": "luizr@gmail.com",
+      "favoriteColor": "Blue",
+      "birthday": "07/07/70"
+    },
+    {
+      "firstName": "Julie",
+      "lastName": "Reis",
+      "email": "juliereis@gmail.com",
+      "favoriteColor": "Red",
+      "birthday": "21/03/98"
+    },
+    {
+      "firstName": "Elder",
+      "lastName": "Lemos",
+      "email": "daniel.lemos@missionary.org",
+      "favoriteColor": "White",
+      "birthday": "22/12/04"
+    }
+  ]
+  

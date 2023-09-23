@@ -14,4 +14,6 @@ routes.get('/daniel',lesson1Controller.daniel);
 // To view everything, you may also use an extension like 
 // Thunder Client, instead of just seeing it on the browser :)
 
+routes.use('/contacts', require('./contacts')); 
+
 module.exports = routes;
