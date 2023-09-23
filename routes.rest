@@ -14,12 +14,12 @@ GET http://localhost:8080/contacts/650f42d10e140e797b890f56
 #################################################
 
 # Get all contacts RENDER
-GET http://localhost:8080/contacts
+GET https://lemos-cse341-node.onrender.com/contacts
 
 # Get a specific contact by ID RENDER
 ###
-GET http://localhost:8080/contacts/650f42d10e140e797b890f54
+GET https://lemos-cse341-node.onrender.com/contacts/650f42d10e140e797b890f54
 ###
-GET http://localhost:8080/contacts/650f42d10e140e797b890f55
+GET https://lemos-cse341-node.onrender.com/contacts/650f42d10e140e797b890f55
 ###
-GET http://localhost:8080/contacts/650f42d10e140e797b890f56
+GET https://lemos-cse341-node.onrender.com/contacts/650f42d10e140e797b890f56
