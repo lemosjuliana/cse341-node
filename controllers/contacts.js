@@ -18,7 +18,7 @@ const ObjectId = require('mongodb').ObjectId; // is a type provided by the Mongo
 
 const getAll = async (req, res, next) => {
   try {
-    const result = await mongodb.getDb().db().collection('contacts').find({}).toArray();
+    const result = await mongodb.getDb().db('cse-341').collection('contacts').find().toArray();
     res.setHeader('Content-Type', 'application/json');
     res.status(200).json(result);
   } catch (error) {
@@ -33,7 +33,7 @@ const getSingle = async (req, res, next) => {
     const userId = new ObjectId(req.params.id);
     const result = await mongodb
       .getDb()
-      .db()
+      .db('cse-341')
       .collection('contacts')
       .find({ _id: userId });
     result.toArray().then((lists) => {
