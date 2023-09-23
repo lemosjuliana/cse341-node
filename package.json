@@ -1,7 +1,6 @@
 {
   "name": "cse341-node",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,10 +17,11 @@
     "mongoose": "^7.5.2"
   },
   "engines": {
-    "node": ">=14 <18.17.1",
+    "node": "14.17.5",
     "npm": "9.8.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
-  }
+  },
+  "description": ""
 }
