@@ -11,6 +11,40 @@ GET http://localhost:8080/contacts/650f42d10e140e797b890f55
 ###
 GET http://localhost:8080/contacts/650f42d10e140e797b890f56
 
+
+### Test POST
+GET http://localhost:8080/contacts/65161bf52d4e6c66491f7398
+
+### Create Contact (working)
+
+POST http://localhost:8080/contacts HTTP/1.1
+content-type: application/json
+
+{
+  "firstName":"Scott",
+  "lastName":"Pager",
+  "email":"pager.1998@gmail.com",
+  "favoriteColor":"Pink",
+  "birthday":"20/04/98"
+}
+
+### Update Contact (working)
+PUT http://localhost:8080/contacts/650f42d10e140e797b890f55 HTTP/1.1
+content-type: application/json
+
+{
+  "firstName": "Julie",
+  "lastName": "Reis",
+  "email": "juliereis@gmail.com",
+  "favoriteColor": "Dark-Blue",
+  "birthday": "21/03/98"
+}
+
+### Delete Contact (working)
+
+DELETE http://localhost:8080/contacts/65161bf52d4e6c66491f7398 HTTP/1.1
+
+
 #################################################
 
 # Get all contacts RENDER
