@@ -57,3 +57,36 @@ GET https://lemos-cse341-node.onrender.com/contacts/650f42d10e140e797b890f54
 GET https://lemos-cse341-node.onrender.com/contacts/650f42d10e140e797b890f55
 ###
 GET https://lemos-cse341-node.onrender.com/contacts/650f42d10e140e797b890f56
+
+### Test POST
+GET http://lemos-cse341-node.onrender.com/contacts/65161bf52d4e6c66491f7398
+
+### Create Contact (working)
+
+POST http://lemos-cse341-node.onrender.com/contacts HTTP/1.1
+content-type: application/json
+
+{
+  "firstName":"Brandon",
+  "lastName":"Pager",
+  "email":"pager.1998@gmail.com",
+  "favoriteColor":"Pink",
+  "birthday":"20/04/98"
+}
+
+### Update Contact (working)
+PUT http://lemos-cse341-node.onrender.com/contacts/65178ba0309e46d7c953d356 HTTP/1.1
+content-type: application/json
+
+{
+  "firstName":"Brandon",
+  "lastName":"Page",
+  "email":"pager.1998@gmail.com",
+  "favoriteColor":"Red",
+  "birthday":"20/04/98"
+}
+
+### Delete Contact (working)
+
+DELETE http://lemos-cse341-node.onrender.com/contacts/65178ba0309e46d7c953d357 HTTP/1.1
+
