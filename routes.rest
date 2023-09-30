@@ -36,7 +36,7 @@ content-type: application/json
   "firstName": "Julie",
   "lastName": "Reis",
   "email": "juliereis@gmail.com",
-  "favoriteColor": "Dark-Blue",
+  "favoriteColor": "White",
   "birthday": "21/03/98"
 }
 
@@ -75,7 +75,7 @@ content-type: application/json
 }
 
 ### Update Contact (working)
-PUT http://lemos-cse341-node.onrender.com/contacts/65178ba0309e46d7c953d356 HTTP/1.1
+PUT http://lemos-cse341-node.onrender.com/contacts/651830713279fd0323501877 HTTP/1.1
 content-type: application/json
 
 {
@@ -88,5 +88,5 @@ content-type: application/json
 
 ### Delete Contact (working)
 
-DELETE http://lemos-cse341-node.onrender.com/contacts/65178ba0309e46d7c953d357 HTTP/1.1
+DELETE http://lemos-cse341-node.onrender.com/contacts/651830713279fd0323501877 HTTP/1.1
 
