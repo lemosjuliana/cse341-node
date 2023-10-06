@@ -8,7 +8,7 @@
   "host": "lemos-cse341-node.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
