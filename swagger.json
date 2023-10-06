@@ -5,7 +5,7 @@
     "description": "Contacts API",
     "version": "1.0.0"
   },
-  "host": "https://lemos-cse341-node.onrender.com",
+  "host": "lemos-cse341-node.onrender.com",
   "basePath": "/",
   "schemes": [
     "http"
