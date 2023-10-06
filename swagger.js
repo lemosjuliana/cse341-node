@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Contacts API',
   },
-  host: 'localhost:8080',
+  host: 'https://lemos-cse341-node.onrender.com',
   schemes: ['http'],
 };
 
