@@ -16,4 +16,6 @@ routes.get('/daniel',lesson1Controller.daniel);
 
 routes.use('/contacts', require('./contacts')); 
 
+routes.use('/', require('./swagger'));
+
 module.exports = routes;
